@@ -1,15 +1,21 @@
 package fr.isen.map.controller;
 
-import fr.isen.map.RPGWorlManager;
+import fr.isen.map.model.Player;
+import fr.isen.map.view.PlayerView;
 
 import java.awt.event.*;
 
 public class PlayerMovement implements KeyListener{
 
     private RPGWorlManager rpgWorlManager;
+    private Player player;
+    private PlayerView playerView;
 
-    public PlayerMovement(RPGWorlManager rpgWorlManager) {
+    public PlayerMovement(RPGWorlManager rpgWorlManager, Player player) {
         this.rpgWorlManager = rpgWorlManager;
+        this.player = player;
+        this.playerView = new PlayerView(player);
+        player.addObserver(playerView);
     }
 
     @Override

@@ -1,6 +1,7 @@
-package fr.isen.map;
+package fr.isen.map.view;
 
 import fr.isen.map.element.*;
+import fr.isen.map.model.MapImages;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -10,10 +11,10 @@ import java.util.List;
 import java.util.Observable;
 import java.util.Observer;
 
-public class TilePanel extends JPanel implements Observer {
+public class GlobalView extends JPanel implements Observer {
     Image[][] images;
 
-    public TilePanel(List<List<MapElement>> elements) {
+    public GlobalView(List<List<MapElement>> elements) {
         int height = elements.get(0).size();
         int width = elements.size();
 
@@ -22,7 +23,7 @@ public class TilePanel extends JPanel implements Observer {
     }
 
 
-    private void associateAllURL_Element(List<java.util.List<MapElement>> elements, MapImages mapImagesInstance) {
+    private void associateAllURL_Element(List<List<MapElement>> elements, MapImages mapImagesInstance) {
         int i = 0, j = 0;
         while (i < elements.size()) {
             List<MapElement> elementList = elements.get(i);
@@ -35,6 +36,7 @@ public class TilePanel extends JPanel implements Observer {
                 }
                 j++;
             }
+            System.out.println("");
             j = 0;
             i++;
         }
@@ -73,13 +75,12 @@ public class TilePanel extends JPanel implements Observer {
             while (j < img.length) {
                 Image imageToDraw = img[j];
 
-                graphics.drawImage(imageToDraw, 32 * i, 32 * j, null);
+                graphics.drawImage(imageToDraw, 32 * j, 32 * i, null);
                 j++;
             }
             j = 0;
             i++;
         }
-
     }
 
     @Override

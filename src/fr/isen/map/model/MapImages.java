@@ -1,4 +1,4 @@
-package fr.isen.map;
+package fr.isen.map.model;
 
 import java.net.URL;
 import java.util.Hashtable;

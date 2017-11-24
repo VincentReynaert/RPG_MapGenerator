@@ -1,6 +1,10 @@
-package fr.isen.map;
+package fr.isen.map.model;
 
-public class Player {
+import fr.isen.map.Position;
+
+import java.util.Observable;
+
+public class Player extends Observable{
 
     private Position position;
 
@@ -25,5 +29,7 @@ public class Player {
 
     public void setPosition(Position position) {
         this.position = position;
+        setChanged();
+        notifyObservers();
     }
 }

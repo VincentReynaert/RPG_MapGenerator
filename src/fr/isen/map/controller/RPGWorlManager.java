@@ -1,8 +1,12 @@
-package fr.isen.map;
+package fr.isen.map.controller;
 
 import com.Logger.Logger;
+import fr.isen.map.Position;
+import fr.isen.map.RPGMap;
+import fr.isen.map.RPGMapBuilder;
 import fr.isen.map.element.MapElement;
 import fr.isen.map.element.MapElementFactory;
+import fr.isen.map.model.Player;
 import org.jetbrains.annotations.NotNull;
 
 public class RPGWorlManager {
@@ -67,25 +71,25 @@ public class RPGWorlManager {
 
     public void moveNorth() {
         Position position = player.getPosition();
-        if (position.y > 0) move(position.x, position.y - 1," Up");
+        if (position.y > 0) move(position.x - 1, position.y, " Up");
         else moveLogger.error(" cannot move Up");
     }
 
     public void moveSouth() {
         Position position = player.getPosition();
-        if (position.y < rpg_map.getHeight()) move(position.x, position.y + 1," Down");
+        if (position.y < rpg_map.getHeight()) move(position.x + 1, position.y, " Down");
         else moveLogger.error(" cannot move Down");
     }
 
     public void moveWest() {
         Position position = player.getPosition();
-        if (position.x > 0) move(position.x - 1, position.y," Left");
+        if (position.x > 0) move(position.x, position.y - 1, " Left");
         else moveLogger.error(" cannot move Left");
     }
 
     public void moveEast() {
         Position position = player.getPosition();
-        if (position.x < rpg_map.getWidth()) move(position.x + 1, position.y," Right");
+        if (position.x < rpg_map.getWidth()) move(position.x, position.y + 1, " Right");
         else moveLogger.error(" cannot move Right");
     }
     //endregion
