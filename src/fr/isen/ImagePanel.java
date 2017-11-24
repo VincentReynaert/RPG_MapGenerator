@@ -10,7 +10,7 @@ public class ImagePanel extends JPanel {
     Image image1;
     Image image2;
     public ImagePanel() {
-        URL url1 = ClassLoader.getSystemResource("./ground.png");
+        URL url1 = ClassLoader.getSystemResource("./PlayerDown.png");
         URL url2 = ClassLoader.getSystemResource("./wall.png");
         try {
             image1 = ImageIO.read(url1);

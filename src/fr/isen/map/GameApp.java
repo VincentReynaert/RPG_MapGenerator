@@ -4,8 +4,11 @@ import fr.isen.map.controller.PlayerMovement;
 import fr.isen.map.controller.RPGWorlManager;
 import fr.isen.map.element.ForestFactory;
 import fr.isen.map.element.MapElement;
+import fr.isen.map.element.MazeFactory;
+import fr.isen.map.element.TownFactory;
 import fr.isen.map.model.Player;
 import fr.isen.map.view.GlobalView;
+import fr.isen.map.view.PlayerView;
 
 import javax.swing.*;
 import java.awt.*;
@@ -22,7 +25,8 @@ public class GameApp extends JFrame {
         RPGMap map = raymanManager.getRpg_map();
         List<List<MapElement>> elements = map.getElements();
 
-        GlobalView panel = new GlobalView(elements);
+        PlayerView playerView = new PlayerView(Rayman);
+        GlobalView panel = new GlobalView(elements, playerView);
 
         this.setTitle("Mon application");
         this.setSize(width * 32, height * 32);
