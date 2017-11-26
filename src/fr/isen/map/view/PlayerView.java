@@ -5,39 +5,28 @@ import fr.isen.map.model.Player;
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.IOException;
-import java.util.Observable;
-import java.util.Observer;
 
-public class PlayerView implements Observer {
+public class PlayerView {
     private Player player;
-    private Image image;
+    private Image[] images;
+    private int imageIndex;
 
     public PlayerView(Player player) {
         this.player = player;
-        String url = "./Player#.png";
-        url = FindUrl(player, url);
+        images = new Image[4];
+        imageIndex = 1;
+        FindUrl();
+    }
+
+    private void FindUrl() {
         try {
-            this.image = ImageIO.read(ClassLoader.getSystemResource(url));
+            this.images[0] = ImageIO.read(ClassLoader.getSystemResource("./PlayerUp.png"));
+            this.images[1] = ImageIO.read(ClassLoader.getSystemResource("./PlayerDown.png"));
+            this.images[2] = ImageIO.read(ClassLoader.getSystemResource("./PlayerLeft.png"));
+            this.images[3] = ImageIO.read(ClassLoader.getSystemResource("./PlayerRight.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
-
-    private String FindUrl(Player player, String url) {
-        switch (player.getDirection()) {
-            case UP:
-                url = url.replace("#", "Up");
-                break;
-            case LEFT:
-                url = url.replace("#", "Left");
-                break;
-            case RIGHT:
-                url = url.replace("#", "Right");
-                break;
-            default:
-                url = url.replace("#", "Down");
-        }
-        return url;
     }
 
     public Player getPlayer() {
@@ -45,20 +34,27 @@ public class PlayerView implements Observer {
     }
 
     public Image getImage() {
-        return image;
+        return images[imageIndex];
     }
 
-    @Override
-    public void update(Observable observable, Object object) {
-        if (observable == player) {
-            String url = "./Player#.png";
-            url = FindUrl(player, url);
-            try {
-                this.image = ImageIO.read(ClassLoader.getSystemResource(url));
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-//            System.out.println("x " + player.getPosition().x + " : y" + player.getPosition().y);
-        }
+    public void setImageIndex(Player player){switch (player.getDirection()) {
+        case UP:
+            imageIndex = 0;
+
+            break;
+        case LEFT:
+            imageIndex = 2;
+
+            break;
+        case RIGHT:
+            imageIndex = 3;
+
+            break;
+        default:
+            imageIndex = 1;
+
     }
+
+    }
+
 }

@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bbb61f4-1f20-4d32-9cb6-f826c9b7e981" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/isen/map/Direction.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/GlobalView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/MapImages.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/Player.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/RPGWorlManager.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/ImagePanel.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/ImagePanel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/Test.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/Test.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/GameApp.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/GameApp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/controller/PlayerMovement.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/controller/PlayerMovement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/controller/RPGWorlManager.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/controller/RPGWorlManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/view/GlobalView.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/view/GlobalView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/view/PlayerView$1.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/view/PlayerView$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/view/PlayerView.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/view/PlayerView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ressources/TownWall.png" afterPath="$PROJECT_DIR$/ressources/TownWall.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/ImagePanel.java" afterPath="$PROJECT_DIR$/src/fr/isen/ImagePanel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/GameApp.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/GameApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/controller/PlayerMovement.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/controller/PlayerMovement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/controller/RPGWorlManager.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/controller/RPGWorlManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/model/Player.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/model/Player.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/view/GlobalView.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/view/GlobalView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/view/PlayerView.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/view/PlayerView.java" />
     </list>
@@ -31,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GameApp.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fr/isen/map/GameApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="22" column="115" lean-forward="false" selection-start-line="22" selection-start-column="115" selection-end-line="22" selection-end-column="115" />
+            <state relative-caret-position="22">
+              <caret line="22" column="113" lean-forward="false" selection-start-line="22" selection-start-column="113" selection-end-line="22" selection-end-column="113" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,23 +40,41 @@
       <file leaf-file-name="GlobalView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/isen/map/view/GlobalView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2024">
-              <caret line="92" column="9" lean-forward="true" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+            <state relative-caret-position="139">
+              <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#GlobalView#0;class#GlobalView#0" expanded="false" />
+                <element signature="method#associateAllURL_Element#0;class#GlobalView#0" expanded="false" />
+                <element signature="method#associateURLElement#0;class#GlobalView#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerView.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlayerView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/isen/map/view/PlayerView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="61" column="9" lean-forward="false" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+            <state relative-caret-position="132">
+              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#PlayerView#0;class#PlayerView#0" expanded="false" />
+                <element signature="method#FindUrl#0;class#PlayerView#0" expanded="false" />
+                <element signature="e#991#992#0" expanded="true" />
+                <element signature="e#1032#1033#0" expanded="true" />
+                <element signature="method#setImageIndex#0;class#PlayerView#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerMovement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/isen/map/controller/PlayerMovement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,17 +147,17 @@
         <option value="$PROJECT_DIR$/src/fr/isen/map/view/ForestGroundView.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/GlobalView.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/Player.java" />
-        <option value="$PROJECT_DIR$/src/fr/isen/map/controller/PlayerMovement.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/RPGWorlManager.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/model/MapImages.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/Direction.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/model/Player.java" />
-        <option value="$PROJECT_DIR$/src/fr/isen/map/controller/RPGWorlManager.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/ImagePanel.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/Main.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/GameApp.java" />
+        <option value="$PROJECT_DIR$/src/fr/isen/map/controller/RPGWorlManager.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/view/GlobalView.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/view/PlayerView.java" />
+        <option value="$PROJECT_DIR$/src/fr/isen/map/controller/PlayerMovement.java" />
       </list>
     </option>
   </component>
@@ -179,12 +191,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="drawingImagesExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="drawingImagesExample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drawingImagesExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drawingImagesExample" type="462c0819:PsiDirectoryNode" />
+              <item name="ressources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="drawingImagesExample" type="b2602c69:ProjectViewProjectNode" />
@@ -216,10 +237,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -372,19 +389,22 @@
       <workItem from="1511449259202" duration="9623000" />
       <workItem from="1511518236894" duration="2899000" />
       <workItem from="1511523224279" duration="1502000" />
-      <workItem from="1511524746500" duration="2402000" />
+      <workItem from="1511524746500" duration="2789000" />
+      <workItem from="1511618622658" duration="620000" />
+      <workItem from="1511689424971" duration="4324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48070000" />
+    <option name="totallyTimeSpent" value="53401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="994" y="30" width="1853" height="1086" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837406" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -395,14 +415,14 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23284711" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23284711" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995749" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -419,7 +439,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1031,7 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,19 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/controller/RPGWorlManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="103" column="47" lean-forward="false" selection-start-line="103" selection-start-column="47" selection-end-line="103" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1137,34 +1143,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/controller/PlayerMovement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/view/GlobalView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2024">
-          <caret line="92" column="9" lean-forward="true" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/GameApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="22" column="115" lean-forward="false" selection-start-line="22" selection-start-column="115" selection-end-line="22" selection-end-column="115" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/isen/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1173,10 +1151,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/controller/RPGWorlManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-347">
+          <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/isen/map/view/PlayerView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="61" column="9" lean-forward="false" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        <state relative-caret-position="132">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#PlayerView#0;class#PlayerView#0" expanded="false" />
+            <element signature="method#FindUrl#0;class#PlayerView#0" expanded="false" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="method#setImageIndex#0;class#PlayerView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/view/GlobalView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#GlobalView#0;class#GlobalView#0" expanded="false" />
+            <element signature="method#associateAllURL_Element#0;class#GlobalView#0" expanded="false" />
+            <element signature="method#associateURLElement#0;class#GlobalView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/controller/PlayerMovement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/GameApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="22" column="113" lean-forward="false" selection-start-line="22" selection-start-column="113" selection-end-line="22" selection-end-column="113" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

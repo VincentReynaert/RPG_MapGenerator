@@ -1,5 +1,6 @@
 package fr.isen.map.controller;
 
+import fr.isen.map.Direction;
 import fr.isen.map.model.Player;
 import fr.isen.map.view.PlayerView;
 
@@ -15,7 +16,6 @@ public class PlayerMovement implements KeyListener{
         this.rpgWorlManager = rpgWorlManager;
         this.player = player;
         this.playerView = new PlayerView(player);
-        player.addObserver(playerView);
     }
 
     @Override
@@ -29,18 +29,22 @@ public class PlayerMovement implements KeyListener{
         switch( keyCode ) {
             case KeyEvent.VK_UP:
                 System.out.println("press up");
+                player.setDirection(Direction.UP);
                 rpgWorlManager.moveNorth();
                 break;
             case KeyEvent.VK_DOWN:
                 System.out.println("press do");
+                player.setDirection(Direction.DOWN);
                 rpgWorlManager.moveSouth();
                 break;
             case KeyEvent.VK_LEFT:
                 System.out.println("press le");
+                player.setDirection(Direction.LEFT);
                 rpgWorlManager.moveWest();
                 break;
             case KeyEvent.VK_RIGHT :
                 System.out.println("press ri");
+                player.setDirection(Direction.RIGHT);
                 rpgWorlManager.moveEast();
                 break;
         }

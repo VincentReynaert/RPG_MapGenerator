@@ -74,7 +74,7 @@ public class RPGWorlManager {
         Position position = player.getPosition();
         if (position.y > 0) {
             move(position.x - 1, position.y, " Up");
-            player.setDirection(Direction.UP);
+//            player.setDirection(Direction.UP);
         }
         else moveLogger.error(" cannot move Up");
     }
@@ -83,7 +83,7 @@ public class RPGWorlManager {
         Position position = player.getPosition();
         if (position.y < rpg_map.getHeight()) {
             move(position.x + 1, position.y, " Down");
-            player.setDirection(Direction.DOWN);
+//            player.setDirection(Direction.DOWN);
         }
         else moveLogger.error(" cannot move Down");
     }
@@ -92,7 +92,7 @@ public class RPGWorlManager {
         Position position = player.getPosition();
         if (position.x > 0) {
             move(position.x, position.y - 1, " Left");
-            player.setDirection(Direction.LEFT);
+//            player.setDirection(Direction.LEFT);
         }
         else moveLogger.error(" cannot move Left");
     }
@@ -101,7 +101,7 @@ public class RPGWorlManager {
         Position position = player.getPosition();
         if (position.x < rpg_map.getWidth()) {
             move(position.x, position.y + 1, " Right");
-            player.setDirection(Direction.RIGHT);
+//            player.setDirection(Direction.RIGHT);
         }
         else moveLogger.error(" cannot move Right");
     }
