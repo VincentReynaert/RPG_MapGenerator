@@ -10,15 +10,15 @@ import java.util.List;
 import java.util.Observable;
 import java.util.Observer;
 
-public class GlobalView extends JPanel implements Observer {
+public class GlobalView extends JPanel {
     Image[][] images;
-    PlayerView playerView;
+//    PlayerView playerView;
 
     public GlobalView(List<List<MapElement>> elements, PlayerView playerView) {
         int height = elements.get(0).size();
         int width = elements.size();
-        this.playerView = playerView;
-        this.playerView.getPlayer().addObserver(this);
+//        this.playerView = playerView;
+//        this.playerView.getPlayer().addObserver(this);
         this.images = new Image[width][height];
         associateAllURL_Element(elements);
     }
@@ -81,16 +81,8 @@ public class GlobalView extends JPanel implements Observer {
             j = 0;
             i++;
         }
-        System.out.println(playerView.getImage());
-        graphics.drawImage(playerView.getImage(), 32 * playerView.getPlayer().getPosition().y, 32 * playerView.getPlayer().getPosition().x, null);
+//        System.out.println(playerView.getImage());
+//        graphics.drawImage(playerView.getImage(), 32 * playerView.getPlayer().getPosition().y, 32 * playerView.getPlayer().getPosition().x, null);
     }
 
-    @Override
-    public void update(Observable observable, Object object) {
-        if (observable == playerView.getPlayer()) {
-            playerView.setImageIndex(playerView.getPlayer());
-            repaint();
-            System.out.println("Dir " + playerView.getPlayer().getDirection());
-        }
-    }
 }

@@ -16,8 +16,8 @@ public class GameApp extends JFrame {
         super();
         Player Rayman = new Player("Rayman");
         int width = 20, height = 10;
-        RPGWorlManager raymanManager = new RPGWorlManager(Rayman, height, width, new RPGMapBuilder(), ForestFactory.getInstance());
-        PlayerMovement playerMovement = new PlayerMovement(raymanManager, Rayman);
+        RPGWorlManager raymanManager = new RPGWorlManager(Rayman, width, height, new RPGMapBuilder(), ForestFactory.getInstance());
+        PlayerMovement playerMovement = new PlayerMovement(raymanManager);
         RPGMap map = raymanManager.getRpg_map();
         List<List<MapElement>> elements = map.getElements();
 
@@ -30,6 +30,7 @@ public class GameApp extends JFrame {
         this.addKeyListener(playerMovement);
 
         this.setLayout(new BorderLayout());
+        panel.add(playerView);
         this.getContentPane().add(panel, BorderLayout.CENTER);
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

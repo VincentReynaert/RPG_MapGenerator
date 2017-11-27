@@ -14,9 +14,9 @@ public class PlayerMovement implements KeyListener {
     private Player player;
     private PlayerView playerView;
 
-    public PlayerMovement(RPGWorlManager rpgWorlManager, Player player) {
+    public PlayerMovement(RPGWorlManager rpgWorlManager) {
         this.rpgWorlManager = rpgWorlManager;
-        this.player = player;
+        this.player = rpgWorlManager.getPlayer();
         this.playerView = new PlayerView(player);
         this.player.addObserver(playerView);
     }
@@ -30,22 +30,22 @@ public class PlayerMovement implements KeyListener {
         int keyCode = e.getKeyCode();
         switch (keyCode) {
             case KeyEvent.VK_UP:
-                System.out.println("press up");
+//                System.out.println("press up");
                 player.setDirection(Direction.UP);
                 rpgWorlManager.moveNorth();
                 break;
             case KeyEvent.VK_DOWN:
-                System.out.println("press do");
+//                System.out.println("press do");
                 player.setDirection(Direction.DOWN);
                 rpgWorlManager.moveSouth();
                 break;
             case KeyEvent.VK_LEFT:
-                System.out.println("press le");
+//                System.out.println("press le");
                 player.setDirection(Direction.LEFT);
                 rpgWorlManager.moveWest();
                 break;
             case KeyEvent.VK_RIGHT:
-                System.out.println("press ri");
+//                System.out.println("press ri");
                 player.setDirection(Direction.RIGHT);
                 rpgWorlManager.moveEast();
                 break;

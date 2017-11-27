@@ -12,12 +12,12 @@ import java.util.Observer;
 public class PlayerView extends JPanel implements Observer{
     private Player player;
     private Image[] images;
-    private int imageIndex;
+    private int state;
 
     public PlayerView(Player player) {
         this.player = player;
         images = new Image[4];
-        imageIndex = 1;
+        state = 1;
         FindUrl();
     }
 
@@ -37,31 +37,39 @@ public class PlayerView extends JPanel implements Observer{
     }
 
     public Image getImage() {
-        return images[imageIndex];
+        return images[state];
     }
 
-    public void setImageIndex(Player player){switch (player.getDirection()) {
+    public void setState(Player player){switch (player.getDirection()) {
         case UP:
-            imageIndex = 0;
+            state = 0;
 
             break;
         case LEFT:
-            imageIndex = 2;
+            state = 2;
 
             break;
         case RIGHT:
-            imageIndex = 3;
+            state = 3;
 
             break;
         default:
-            imageIndex = 1;
+            state = 1;
 
     }
 
     }
 
+    public void paintComponent(Graphics g){
+        super.paintComponent(g);
+        g.drawImage(images[state],32 * player.getPosition().y, 32 * player.getPosition().x,this);
+    }
     @Override
-    public void update(Observable o, Object arg) {
-
+    public void update(Observable observable, Object object) {
+        if (observable == player) {
+            setState(player);
+//            revalidate();
+            repaint();
+        }
     }
 }

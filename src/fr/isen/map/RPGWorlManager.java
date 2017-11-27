@@ -26,9 +26,9 @@ public class RPGWorlManager {
 
     public RPGWorlManager(Player player, int width, int height, RPGMapBuilder builder, MapElementFactory mapElementFactory) {
         builder.setFactory(mapElementFactory);
-        builder.setSize(width, height);
+        builder.setSize(height, width);
         rpg_map = builder.build();
-        Position initialPosition = initialPlayerPosition(builder, width, height);
+        Position initialPosition = initialPlayerPosition(builder, height, width);
         player.setPosition(initialPosition);
         this.player = player;
 //        System.out.println("Player : " + initialPosition.x + ", " + initialPosition.y);
@@ -76,7 +76,7 @@ public class RPGWorlManager {
 
     public void moveNorth() {
         Position position = player.getPosition();
-        if (position.y > 0) {
+        if (position.x > 0) {
             move(position.x - 1, position.y, " Up");
 //            player.setDirection(Direction.UP);
         } else moveLogger.error(" cannot move Up");
@@ -84,7 +84,7 @@ public class RPGWorlManager {
 
     public void moveSouth() {
         Position position = player.getPosition();
-        if (position.y < rpg_map.getHeight()) {
+        if (position.x < rpg_map.getHeight()) {
             move(position.x + 1, position.y, " Down");
 //            player.setDirection(Direction.DOWN);
         } else moveLogger.error(" cannot move Down");
@@ -92,7 +92,7 @@ public class RPGWorlManager {
 
     public void moveWest() {
         Position position = player.getPosition();
-        if (position.x > 0) {
+        if (position.y > 0) {
             move(position.x, position.y - 1, " Left");
 //            player.setDirection(Direction.LEFT);
         } else moveLogger.error(" cannot move Left");
@@ -100,7 +100,7 @@ public class RPGWorlManager {
 
     public void moveEast() {
         Position position = player.getPosition();
-        if (position.x < rpg_map.getWidth()) {
+        if (position.y < rpg_map.getWidth()) {
             move(position.x, position.y + 1, " Right");
 //            player.setDirection(Direction.RIGHT);
         } else moveLogger.error(" cannot move Right");
