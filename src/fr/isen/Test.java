@@ -2,7 +2,7 @@ package fr.isen;
 
 
 import fr.isen.map.*;
-import fr.isen.map.controller.RPGWorlManager;
+import fr.isen.map.RPGWorlManager;
 import fr.isen.map.element.ForestFactory;
 import fr.isen.map.element.MazeFactory;
 import fr.isen.map.element.TownFactory;

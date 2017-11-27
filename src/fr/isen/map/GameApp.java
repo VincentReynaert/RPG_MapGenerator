@@ -1,11 +1,7 @@
 package fr.isen.map;
 
 import fr.isen.map.controller.PlayerMovement;
-import fr.isen.map.controller.RPGWorlManager;
-import fr.isen.map.element.ForestFactory;
-import fr.isen.map.element.MapElement;
-import fr.isen.map.element.MazeFactory;
-import fr.isen.map.element.TownFactory;
+import fr.isen.map.element.*;
 import fr.isen.map.model.Player;
 import fr.isen.map.view.GlobalView;
 import fr.isen.map.view.PlayerView;
@@ -19,8 +15,8 @@ public class GameApp extends JFrame {
     public GameApp() {
         super();
         Player Rayman = new Player("Rayman");
-        int width = 10, height = 10;
-        RPGWorlManager raymanManager = new RPGWorlManager(Rayman, width, height, new RPGMapBuilder(), TownFactory.getInstance());
+        int width = 20, height = 10;
+        RPGWorlManager raymanManager = new RPGWorlManager(Rayman, height, width, new RPGMapBuilder(), ForestFactory.getInstance());
         PlayerMovement playerMovement = new PlayerMovement(raymanManager, Rayman);
         RPGMap map = raymanManager.getRpg_map();
         List<List<MapElement>> elements = map.getElements();

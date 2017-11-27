@@ -1,12 +1,14 @@
 package fr.isen.map.controller;
 
 import fr.isen.map.Direction;
+import fr.isen.map.RPGWorlManager;
 import fr.isen.map.model.Player;
 import fr.isen.map.view.PlayerView;
 
-import java.awt.event.*;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 
-public class PlayerMovement implements KeyListener{
+public class PlayerMovement implements KeyListener {
 
     private RPGWorlManager rpgWorlManager;
     private Player player;
@@ -16,17 +18,17 @@ public class PlayerMovement implements KeyListener{
         this.rpgWorlManager = rpgWorlManager;
         this.player = player;
         this.playerView = new PlayerView(player);
+        this.player.addObserver(playerView);
     }
 
     @Override
     public void keyTyped(KeyEvent e) {
-
     }
 
     @Override
     public void keyPressed(KeyEvent e) {
         int keyCode = e.getKeyCode();
-        switch( keyCode ) {
+        switch (keyCode) {
             case KeyEvent.VK_UP:
                 System.out.println("press up");
                 player.setDirection(Direction.UP);
@@ -42,7 +44,7 @@ public class PlayerMovement implements KeyListener{
                 player.setDirection(Direction.LEFT);
                 rpgWorlManager.moveWest();
                 break;
-            case KeyEvent.VK_RIGHT :
+            case KeyEvent.VK_RIGHT:
                 System.out.println("press ri");
                 player.setDirection(Direction.RIGHT);
                 rpgWorlManager.moveEast();
@@ -52,7 +54,6 @@ public class PlayerMovement implements KeyListener{
 
     @Override
     public void keyReleased(KeyEvent e) {
-
     }
 
 

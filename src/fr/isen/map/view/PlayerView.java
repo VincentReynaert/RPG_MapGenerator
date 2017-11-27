@@ -3,10 +3,13 @@ package fr.isen.map.view;
 import fr.isen.map.model.Player;
 
 import javax.imageio.ImageIO;
+import javax.swing.*;
 import java.awt.*;
 import java.io.IOException;
+import java.util.Observable;
+import java.util.Observer;
 
-public class PlayerView {
+public class PlayerView extends JPanel implements Observer{
     private Player player;
     private Image[] images;
     private int imageIndex;
@@ -57,4 +60,8 @@ public class PlayerView {
 
     }
 
+    @Override
+    public void update(Observable o, Object arg) {
+
+    }
 }

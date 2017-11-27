@@ -3,21 +3,38 @@ package fr.isen.map.element;
 import com.Logger.Logger;
 
 public class ForestWall extends Wall {
-    public Boolean getHasSnow() {
-        return hasSnow;
-    }
 
-    private Boolean hasSnow = true;
+    private int state = 1;
+    private String[] images = {"./ForestWood.png","./ForestWoodSnow.png"};
+
+//    public Boolean getHasSnow() {
+//        return hasSnow;
+//    }
+//
+//    private Boolean hasSnow = true;
 
     @Override
     public Boolean enter() {
         Logger foLogger = Logger.getLogger("forest_obstable", null);
-        hasSnow = false;
-        foLogger.info("hasSnow = " + hasSnow.toString());
+//        hasSnow = false;
+        state = 0;
+        setChanged();
+        notifyObservers();
+        foLogger.info("state has snow = " + state);
         return false;
     }
 
     @Override
     public void leave() {
+    }
+
+    @Override
+    public int getState() {
+        return state;
+    }
+
+    @Override
+    public String getCurrentImage() {
+        return images[state];
     }
 }

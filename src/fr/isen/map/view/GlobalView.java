@@ -1,7 +1,6 @@
 package fr.isen.map.view;
 
 import fr.isen.map.element.*;
-import fr.isen.map.model.MapImages;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -21,17 +20,18 @@ public class GlobalView extends JPanel implements Observer {
         this.playerView = playerView;
         this.playerView.getPlayer().addObserver(this);
         this.images = new Image[width][height];
-        associateAllURL_Element(elements, MapImages.getInstance());
+        associateAllURL_Element(elements);
     }
 
-    private void associateAllURL_Element(List<List<MapElement>> elements, MapImages mapImagesInstance) {
+    private void associateAllURL_Element(List<List<MapElement>> elements) {
         int i = 0, j = 0;
         while (i < elements.size()) {
             List<MapElement> elementList = elements.get(i);
             while (j < elementList.size()) {
                 MapElement element = elementList.get(j);
                 try {
-                    images[i][j] = ImageIO.read(mapImagesInstance.getUrl(associateURLElement(element)));
+                    System.out.println(element.getCurrentImage());
+                    images[i][j] = ImageIO.read(ClassLoader.getSystemResource(element.getCurrentImage()));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -43,29 +43,29 @@ public class GlobalView extends JPanel implements Observer {
         }
     }
 
-    private String associateURLElement(MapElement element) {
-        if (element instanceof TownGround) {
-            return "TG";
-        } else if (element instanceof TownWall) {
-            return "TW";
-        } else if (element instanceof ForestGround) {
-            if (((ForestGround) element).getHasFootPrint()) return "FGFP";
-            else return "FG";
-        } else if (element instanceof ForestWall) {
-            if (((ForestWall) element).getHasSnow()) return "FWS";
-            else return "FW";
-        } else if (element instanceof MazeGround) {
-            if (((MazeGround) element).getLightning()) return "MGG";
-            else return "MG";
-        } else if (element instanceof MazeWall) {
-            if (((MazeWall) element).getLightning()) return "MWG";
-            else return "MW";
-        } else {
-            System.out.println("error : " + element.getClass());
-            return "";
-        }
-
-    }
+//    private String associateURLElement(MapElement element) {
+//        if (element instanceof TownGround) {
+//            return "TG";
+//        } else if (element instanceof TownWall) {
+//            return "TW";
+//        } else if (element instanceof ForestGround) {
+//            if (((ForestGround) element).getValue()) return "FGFP";
+//            else return "FG";
+//        } else if (element instanceof ForestWall) {
+//            if (((ForestWall) element).getHasSnow()) return "FWS";
+//            else return "FW";
+//        } else if (element instanceof MazeGround) {
+//            if (((MazeGround) element).getLightning()) return "MGG";
+//            else return "MG";
+//        } else if (element instanceof MazeWall) {
+//            if (((MazeWall) element).getLightning()) return "MWG";
+//            else return "MW";
+//        } else {
+//            System.out.println("error : " + element.getClass());
+//            return "";
+//        }
+//
+//    }
 
     @Override
     public void paint(Graphics graphics) {
