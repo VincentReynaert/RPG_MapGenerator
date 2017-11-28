@@ -8,14 +8,8 @@ import java.util.TimerTask;
 
 public class ForestGround extends Ground {
 
-//    public Boolean getValue() {
-//        return hasFootPrint;
-//    }
-//
-//    private Boolean hasFootPrint = false;
-
     private int state = 0;
-    private String[] images = {"./ForestSnowGround.png","./ForestSnowGroundFooPrints.png"};
+    private String[] images = {"./ForestSnowGround.png","./ForestSnowGroundFootPrints.png"};
     @Override
     public void leave() {
         Logger fgLogger = Logger.getLogger("forest_ground", null);
@@ -23,7 +17,6 @@ public class ForestGround extends Ground {
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
-//                hasFootPrint = false;
                 state = 0;
                 setChanged();
                 notifyObservers();
@@ -33,6 +26,15 @@ public class ForestGround extends Ground {
         }, 3 * 1000);
 
     }
+    @Override
+    public Boolean enter() {
+        Logger fgLogger = Logger.getLogger("forest_ground", null);
+        state = 1;
+        setChanged();
+        notifyObservers();
+        fgLogger.info("state has foot print = " + state);
+        return true;
+    }
 
     @Override
     public int getState() {
@@ -40,18 +42,8 @@ public class ForestGround extends Ground {
     }
 
     @Override
-    public String getCurrentImage() {
+    public String getCurrentUrl() {
         return images[state];
     }
 
-    @Override
-    public Boolean enter() {
-        Logger fgLogger = Logger.getLogger("forest_ground", null);
-//        hasFootPrint = true;
-        state = 1;
-        setChanged();
-        notifyObservers();
-        fgLogger.info("state has foot print = " + state);
-        return true;
-    }
 }

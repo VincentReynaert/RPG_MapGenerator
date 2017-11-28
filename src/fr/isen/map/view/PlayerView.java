@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.Observable;
 import java.util.Observer;
 
-public class PlayerView extends JPanel implements Observer{
+public class PlayerView extends JPanel implements Observer {
     private Player player;
     private Image[] images;
     private int state;
@@ -40,30 +40,34 @@ public class PlayerView extends JPanel implements Observer{
         return images[state];
     }
 
-    public void setState(Player player){switch (player.getDirection()) {
-        case UP:
-            state = 0;
+    public void setState(Player player) {
+        switch (player.getDirection()) {
+            case UP:
+                state = 0;
 
-            break;
-        case LEFT:
-            state = 2;
+                break;
+            case LEFT:
+                state = 2;
 
-            break;
-        case RIGHT:
-            state = 3;
+                break;
+            case RIGHT:
+                state = 3;
 
-            break;
-        default:
-            state = 1;
+                break;
+            default:
+                state = 1;
+
+        }
 
     }
 
-    }
-
-    public void paintComponent(Graphics g){
+    @Override
+    public void paintComponent(Graphics g) {
         super.paintComponent(g);
-        g.drawImage(images[state],32 * player.getPosition().y, 32 * player.getPosition().x,this);
+        System.out.println("PaintPlayer");
+        g.drawImage(images[state], 0,0, null);
     }
+
     @Override
     public void update(Observable observable, Object object) {
         if (observable == player) {

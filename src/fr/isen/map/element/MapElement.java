@@ -7,5 +7,5 @@ public abstract class MapElement extends Observable {
     public abstract Boolean enter();
     public abstract void leave();
     public abstract int getState();
-    public abstract String getCurrentImage();
+    public abstract String getCurrentUrl();
 }

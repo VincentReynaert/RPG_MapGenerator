@@ -19,7 +19,7 @@ public class MazeGround extends Ground {
     }
 
     @Override
-    public String getCurrentImage() {
+    public String getCurrentUrl() {
         return images[state];
     }
     @Override

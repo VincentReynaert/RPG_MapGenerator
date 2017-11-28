@@ -14,11 +14,11 @@ public class PlayerMovement implements KeyListener {
     private Player player;
     private PlayerView playerView;
 
-    public PlayerMovement(RPGWorlManager rpgWorlManager) {
+    public PlayerMovement(RPGWorlManager rpgWorlManager, PlayerView playerView) {
         this.rpgWorlManager = rpgWorlManager;
-        this.player = rpgWorlManager.getPlayer();
-        this.playerView = new PlayerView(player);
-        this.player.addObserver(playerView);
+        this.playerView = playerView;
+        this.player = this.playerView.getPlayer();
+        this.player.addObserver(this.playerView);
     }
 
     @Override

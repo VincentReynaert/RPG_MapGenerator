@@ -7,8 +7,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.IOException;
 import java.util.List;
-import java.util.Observable;
-import java.util.Observer;
 
 public class GlobalView extends JPanel {
     Image[][] images;
@@ -30,8 +28,8 @@ public class GlobalView extends JPanel {
             while (j < elementList.size()) {
                 MapElement element = elementList.get(j);
                 try {
-                    System.out.println(element.getCurrentImage());
-                    images[i][j] = ImageIO.read(ClassLoader.getSystemResource(element.getCurrentImage()));
+//                    System.out.println(element.getCurrentUrl());
+                    images[i][j] = ImageIO.read(ClassLoader.getSystemResource(element.getCurrentUrl()));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

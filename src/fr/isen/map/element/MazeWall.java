@@ -22,7 +22,7 @@ public class MazeWall extends Wall {
     }
 
     @Override
-    public String getCurrentImage() {
+    public String getCurrentUrl() {
         return images[state];
     }
     @Override

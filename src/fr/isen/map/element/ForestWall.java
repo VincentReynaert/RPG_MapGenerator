@@ -34,7 +34,7 @@ public class ForestWall extends Wall {
     }
 
     @Override
-    public String getCurrentImage() {
+    public String getCurrentUrl() {
         return images[state];
     }
 }
