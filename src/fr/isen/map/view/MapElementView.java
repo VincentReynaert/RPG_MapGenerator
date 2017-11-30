@@ -10,13 +10,15 @@ import java.util.Observable;
 import java.util.Observer;
 
 public class MapElementView extends JPanel implements Observer {
+    //region Parameters
     private MapElement element;
 
     public MapElementView(MapElement element) {
         this.element = element;
     }
+    //endregion
 
-
+    //region Overrides
     @Override
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
@@ -32,9 +34,8 @@ public class MapElementView extends JPanel implements Observer {
     @Override
     public void update(Observable observable, Object object) {
         if (observable == element){
-//            System.out.println(element.getState());
             repaint();
-//            System.out.println("MapElementView Update : " + element.getCurrentUrl());
         }
     }
+    //endregion
 }

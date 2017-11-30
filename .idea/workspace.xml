@@ -2,26 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bbb61f4-1f20-4d32-9cb6-f826c9b7e981" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/isen/map/view/MapView.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/NewGameApp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/controller/GlobalController.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fr/isen/map/controller/GlobalController.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/controller/MapController.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/view/GlobalView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fr/isen/map/controller/MapElementController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fr/isen/map/view/GlobalView.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/Main.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/view/GlobalView.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/view/GlobalView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/GameApp.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/GameApp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/RPGWorlManager.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/RPGWorlManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/controller/MapController.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/controller/MapController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/element/ForestGround$1.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/element/ForestGround$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/element/ForestGround.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/element/ForestGround.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/element/ForestWall.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/element/ForestWall.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/element/MazeGround.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/element/MazeGround.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/element/MazeWall$1.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/element/MazeWall$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/element/MazeWall.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/element/MazeWall.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/view/MapElementView.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/view/MapElementView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/view/MapView.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/view/MapView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/view/PlayerView$1.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/view/PlayerView$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/view/PlayerView.class" afterPath="$PROJECT_DIR$/out/production/drawingImagesExample/fr/isen/map/view/PlayerView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/Main.java" afterPath="$PROJECT_DIR$/src/fr/isen/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/GameApp.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/GameApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/RPGWorlManager.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/RPGWorlManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/controller/MapController.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/controller/MapController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/controller/PlayerMovement.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/controller/PlayerMovement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/element/ForestGround.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/element/ForestGround.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/element/ForestWall.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/element/ForestWall.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/element/MapElement.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/element/MapElement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/element/MazeGround.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/element/MazeGround.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/element/MazeWall.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/element/MazeWall.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/element/TownGround.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/element/TownGround.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/element/TownWall.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/element/TownWall.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/view/GlobalView.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/view/GlobalView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/model/Player.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/model/Player.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/view/MapElementView.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/view/MapElementView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/view/MapView.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/view/MapView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/isen/map/view/PlayerView.java" afterPath="$PROJECT_DIR$/src/fr/isen/map/view/PlayerView.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,22 +47,33 @@
       <file leaf-file-name="GameApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/isen/map/GameApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="247">
+              <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerView.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/fr/isen/map/view/PlayerView.java">
+      <file leaf-file-name="MapElementView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/isen/map/view/MapElementView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-198">
-              <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            <state relative-caret-position="267">
+              <caret line="26" column="84" lean-forward="false" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="84" />
               <folding>
-                <element signature="method#FindUrl#0;class#PlayerView#0" expanded="false" />
-                <element signature="method#setState#0;class#PlayerView#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapView.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fr/isen/map/view/MapView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,6 +95,9 @@
       <find>CustomKeyListener</find>
       <find>playerMovement</find>
       <find>PlayerView</find>
+      <find>Logger</find>
+      <find>system.</find>
+      <find>isw</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,30 +134,30 @@
         <option value="$PROJECT_DIR$/src/fr/isen/map/Player.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/model/MapImages.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/Direction.java" />
-        <option value="$PROJECT_DIR$/src/fr/isen/map/model/Player.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/ImagePanel.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/view/ForestGroundView.java" />
-        <option value="$PROJECT_DIR$/src/fr/isen/map/element/ForestWall.java" />
-        <option value="$PROJECT_DIR$/src/fr/isen/map/element/MazeGround.java" />
-        <option value="$PROJECT_DIR$/src/fr/isen/map/element/MazeWall.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/element/TownGround.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/element/TownWall.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/controller/RPGWorlManager.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/controller/MapElementController.java" />
-        <option value="$PROJECT_DIR$/src/fr/isen/map/RPGWorlManager.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/newGameApp.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/NewGameApp.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/controller/GlobalController.java" />
-        <option value="$PROJECT_DIR$/src/fr/isen/Main.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/view/GlobalView.java" />
-        <option value="$PROJECT_DIR$/src/fr/isen/map/controller/MapController.java" />
-        <option value="$PROJECT_DIR$/src/fr/isen/map/view/MapView.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/element/MapElement.java" />
-        <option value="$PROJECT_DIR$/src/fr/isen/map/view/MapElementView.java" />
+        <option value="$PROJECT_DIR$/src/fr/isen/map/element/ForestWall.java" />
+        <option value="$PROJECT_DIR$/src/fr/isen/map/element/MazeGround.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/element/ForestGround.java" />
-        <option value="$PROJECT_DIR$/src/fr/isen/map/controller/PlayerMovement.java" />
-        <option value="$PROJECT_DIR$/src/fr/isen/map/GameApp.java" />
+        <option value="$PROJECT_DIR$/src/fr/isen/map/element/MazeWall.java" />
         <option value="$PROJECT_DIR$/src/fr/isen/map/view/PlayerView.java" />
+        <option value="$PROJECT_DIR$/src/fr/isen/map/view/MapElementView.java" />
+        <option value="$PROJECT_DIR$/src/fr/isen/map/controller/MapController.java" />
+        <option value="$PROJECT_DIR$/src/fr/isen/Main.java" />
+        <option value="$PROJECT_DIR$/src/fr/isen/map/GameApp.java" />
+        <option value="$PROJECT_DIR$/src/fr/isen/map/model/Player.java" />
+        <option value="$PROJECT_DIR$/src/fr/isen/map/RPGWorlManager.java" />
+        <option value="$PROJECT_DIR$/src/fr/isen/map/controller/PlayerMovement.java" />
+        <option value="$PROJECT_DIR$/src/fr/isen/map/view/MapView.java" />
       </list>
     </option>
   </component>
@@ -210,7 +234,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="isen" type="462c0819:PsiDirectoryNode" />
               <item name="map" type="462c0819:PsiDirectoryNode" />
-              <item name="element" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="drawingImagesExample" type="b2602c69:ProjectViewProjectNode" />
@@ -218,7 +242,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="isen" type="462c0819:PsiDirectoryNode" />
               <item name="map" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -229,7 +253,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MVCPattern" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RunDashboard">
@@ -380,12 +404,12 @@
       <workItem from="1511618622658" duration="620000" />
       <workItem from="1511689424971" duration="7394000" />
       <workItem from="1511786337999" duration="13024000" />
-      <workItem from="1511862368081" duration="12255000" />
+      <workItem from="1511862368081" duration="30473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81750000" />
+    <option name="totallyTimeSpent" value="99968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="69" y="-5" width="1851" height="1085" extended-state="6" />
@@ -399,7 +423,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39319873" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39319873" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -433,479 +457,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/oracle-java8-jdk-amd64/src.zip!/java/util/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="54" column="11" lean-forward="false" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/fr.isen">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>fr.isen</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">fr.isen.ImagePanel</node>
-            <node x="5.5" y="374.0">fr.isen.Main</node>
-            <node x="394.9000000000001" y="0.0">fr.isen.map</node>
-            <node x="27.0" y="242.0">fr.isen.Application</node>
-            <node x="306.0" y="126.0">fr.isen.Test</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="fr.isen.map" target="fr.isen.map">
-              <point x="-62.8" y="23.0" />
-              <point x="410.6000000000001" y="66.0" />
-              <point x="374.9000000000001" y="66.0" />
-              <point x="374.9000000000001" y="38.33333333333334" />
-              <point x="-78.5" y="15.333333333333343" />
-            </edge>
-            <edge source="fr.isen.Test" target="fr.isen.map">
-              <point x="107.25" y="-59.0" />
-              <point x="627.75" y="106.0" />
-              <point x="536.2" y="106.0" />
-              <point x="62.799999999999955" y="23.0" />
-            </edge>
-            <edge source="fr.isen.Main" target="fr.isen.Application">
-              <point x="0.0" y="-41.0" />
-              <point x="0.0" y="41.0" />
-            </edge>
-            <edge source="fr.isen.Application" target="fr.isen.ImagePanel">
-              <point x="-51.75" y="-41.0" />
-              <point x="78.75" y="217.0" />
-              <point x="65.25" y="217.0" />
-              <point x="-65.25" y="96.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-165.0" y="113.0" />
-          <SelectedNodes>
-            <node>fr.isen.ImagePanel</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Inner Classes</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/fr.isen.map">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>fr.isen.map</OriginalElement>
-          <nodes>
-            <node x="240.1474137931035" y="1667.0">fr.isen.map.controller</node>
-            <node x="557.0863984674329" y="425.0">fr.isen.map.RPGMapBuilder</node>
-            <node x="379.3363984674329" y="1902.0">fr.isen.map.GameApp</node>
-            <node x="145.1875" y="173.0">fr.isen.map.Position</node>
-            <node x="743.1618295019157" y="0.0">fr.isen.map.element</node>
-            <node x="409.375" y="136.0">fr.isen.map.RPGMap</node>
-            <node x="88.8363984674329" y="1027.0">fr.isen.map.RPGWorlManager</node>
-            <node x="1132.086398467433" y="1558.0">fr.isen.map.Images</node>
-            <node x="0.0" y="623.5">fr.isen.map.Player</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="fr.isen.map.element" target="fr.isen.map.element">
-              <point x="-82.6875" y="23.0" />
-              <point x="754.9743295019157" y="66.0" />
-              <point x="723.1618295019157" y="66.0" />
-              <point x="723.1618295019157" y="34.5" />
-              <point x="-94.5" y="11.5" />
-            </edge>
-            <edge source="fr.isen.map.RPGWorlManager" target="fr.isen.map.RPGMapBuilder">
-              <point x="297.5" y="-240.5" />
-              <point x="726.3363984674329" y="1007.0" />
-              <point x="695.5863984674329" y="1007.0" />
-              <point x="-138.5" y="276.0" />
-            </edge>
-            <edge source="fr.isen.map.GameApp" target="fr.isen.map.controller">
-              <point x="-55.55555555555566" y="-41.0" />
-              <point x="448.78084291187724" y="1862.0" />
-              <point x="290.6474137931035" y="1862.0" />
-              <point x="-50.5" y="23.0" />
-            </edge>
-            <edge source="fr.isen.map.RPGWorlManager" target="fr.isen.map.Player">
-              <point x="-212.5" y="-240.5" />
-              <point x="216.3363984674329" y="1007.0" />
-              <point x="186.375" y="1007.0" />
-              <point x="79.875" y="77.5" />
-            </edge>
-            <edge source="fr.isen.map.GameApp" target="fr.isen.map.RPGWorlManager">
-              <point x="27.77777777777783" y="-41.0" />
-              <point x="532.1141762452107" y="1882.0" />
-              <point x="551.375" y="1882.0" />
-              <point x="551.375" y="1533.0" />
-              <point x="683.8363984674329" y="1533.0" />
-              <point x="255.0" y="240.5" />
-            </edge>
-            <edge source="fr.isen.map.GameApp" target="fr.isen.map.RPGMapBuilder">
-              <point x="55.55555555555566" y="-41.0" />
-              <point x="559.8919540229886" y="1862.0" />
-              <point x="972.5863984674329" y="1862.0" />
-              <point x="138.49999999999997" y="276.0" />
-            </edge>
-            <edge source="fr.isen.map.GameApp" target="fr.isen.map.Images">
-              <point x="111.11111111111109" y="-41.0" />
-              <point x="615.447509578544" y="1882.0" />
-              <point x="1301.586398467433" y="1882.0" />
-              <point x="0.0" y="132.0" />
-            </edge>
-            <edge source="fr.isen.map.RPGMapBuilder" target="fr.isen.map.RPGMap">
-              <point x="-69.25" y="-276.0" />
-              <point x="764.8363984674329" y="405.0" />
-              <point x="746.25" y="405.0" />
-              <point x="144.375" y="114.5" />
-            </edge>
-            <edge source="fr.isen.map.RPGMap" target="fr.isen.map.element">
-              <point x="96.25" y="-114.5" />
-              <point x="698.125" y="116.0" />
-              <point x="849.4743295019157" y="116.0" />
-              <point x="11.8125" y="23.0" />
-            </edge>
-            <edge source="fr.isen.map.RPGWorlManager" target="fr.isen.map.Position">
-              <point x="-42.5" y="-240.5" />
-              <point x="386.3363984674329" y="1007.0" />
-              <point x="381.0993295019157" y="1007.0" />
-              <point x="381.0993295019157" y="395.0" />
-              <point x="354.88749999999993" y="395.0" />
-              <point x="93.19999999999993" y="77.5" />
-            </edge>
-            <edge source="fr.isen.map.GameApp" target="fr.isen.map.element">
-              <point x="83.33333333333326" y="-41.0" />
-              <point x="587.6697318007662" y="1872.0" />
-              <point x="1121.586398467433" y="1872.0" />
-              <point x="1121.586398467433" y="96.0" />
-              <point x="920.3493295019157" y="96.0" />
-              <point x="82.6875" y="23.0" />
-            </edge>
-            <edge source="fr.isen.map.RPGMapBuilder" target="fr.isen.map.element">
-              <point x="69.24999999999997" y="-276.0" />
-              <point x="903.3363984674329" y="405.0" />
-              <point x="911.6474137931035" y="405.0" />
-              <point x="911.6474137931035" y="116.0" />
-              <point x="873.0993295019157" y="116.0" />
-              <point x="35.4375" y="23.0" />
-            </edge>
-            <edge source="fr.isen.map.RPGWorlManager" target="fr.isen.map.RPGMap">
-              <point x="127.5" y="-240.5" />
-              <point x="556.3363984674329" y="1007.0" />
-              <point x="527.6633141762451" y="1007.0" />
-              <point x="527.6633141762451" y="405.0" />
-              <point x="457.5" y="405.0" />
-              <point x="-144.375" y="114.5" />
-            </edge>
-            <edge source="fr.isen.map.controller" target="fr.isen.map.RPGWorlManager">
-              <point x="50.5" y="-23.0" />
-              <point x="391.6474137931035" y="1533.0" />
-              <point x="343.8363984674329" y="1533.0" />
-              <point x="-85.0" y="240.5" />
-            </edge>
-            <edge source="fr.isen.map.RPGWorlManager" target="fr.isen.map.element">
-              <point x="42.5" y="-240.5" />
-              <point x="471.3363984674329" y="1007.0" />
-              <point x="398.875" y="1007.0" />
-              <point x="398.875" y="96.0" />
-              <point x="802.2243295019157" y="96.0" />
-              <point x="-35.4375" y="23.0" />
-            </edge>
-            <edge source="fr.isen.map.GameApp" target="fr.isen.map.Player">
-              <point x="-83.33333333333326" y="-41.0" />
-              <point x="421.00306513409964" y="1872.0" />
-              <point x="78.3363984674329" y="1872.0" />
-              <point x="78.3363984674329" y="1007.0" />
-              <point x="79.875" y="1007.0" />
-              <point x="-26.625" y="77.5" />
-            </edge>
-            <edge source="fr.isen.map.Player" target="fr.isen.map.Position">
-              <point x="-71.0" y="-77.5" />
-              <point x="35.5" y="385.0" />
-              <point x="168.4875" y="385.0" />
-              <point x="-93.19999999999999" y="77.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.35429141716566864" x="-768.0" y="667.0" />
-          <SelectedNodes>
-            <node>fr.isen.map.controller</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Inner Classes</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/fr.isen.map.controller">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>fr.isen.map.controller</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">fr.isen.map.controller.PlayerMovement</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-425.0" y="-92.0" />
-          <SelectedNodes>
-            <node>fr.isen.map.controller.PlayerMovement</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Inner Classes</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/fr.isen.map.element">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>fr.isen.map.element</OriginalElement>
-          <nodes>
-            <node x="873.25" y="0.0">fr.isen.map.element.MapElement</node>
-            <node x="1238.251879699248" y="589.0">fr.isen.map.element.TownFactory</node>
-            <node x="930.75" y="352.5">fr.isen.map.element.MapElementFactory</node>
-            <node x="1203.5195488721804" y="352.5">fr.isen.map.element.TownWall</node>
-            <node x="734.75" y="168.0">fr.isen.map.element.Wall</node>
-            <node x="391.75" y="334.0">fr.isen.map.element.MazeGround</node>
-            <node x="1113.25" y="168.0">fr.isen.map.element.Ground</node>
-            <node x="860.8477443609024" y="589.0">fr.isen.map.element.ForestFactory</node>
-            <node x="1775.15" y="352.5">fr.isen.map.element.TownGround</node>
-            <node x="161.54586466165426" y="589.0">fr.isen.map.element.MazeFactory</node>
-            <node x="669.75" y="334.0">fr.isen.map.element.ForestWall</node>
-            <node x="1448.5195488721804" y="334.0">fr.isen.map.element.ForestGround</node>
-            <node x="0.0" y="334.0">fr.isen.map.element.MazeWall</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="fr.isen.map.element.TownWall" target="fr.isen.map.element.Wall">
-              <point x="0.0" y="-59.0" />
-              <point x="1316.0195488721804" y="264.0" />
-              <point x="837.8214285714286" y="264.0" />
-              <point x="47.571428571428555" y="23.0" />
-            </edge>
-            <edge source="fr.isen.map.element.TownFactory" target="fr.isen.map.element.Wall">
-              <point x="-62.59999999999991" y="-114.5" />
-              <point x="1332.1518796992482" y="519.0" />
-              <point x="1193.0195488721804" y="519.0" />
-              <point x="1193.0195488721804" y="274.0" />
-              <point x="821.9642857142857" y="274.0" />
-              <point x="31.714285714285666" y="23.0" />
-            </edge>
-            <edge source="fr.isen.map.element.MazeFactory" target="fr.isen.map.element.MazeWall">
-              <point x="-124.39999999999998" y="-114.5" />
-              <point x="192.6458646616543" y="569.0" />
-              <point x="129.0" y="569.0" />
-              <point x="0.0" y="77.5" />
-            </edge>
-            <edge source="fr.isen.map.element.MapElementFactory" target="fr.isen.map.element.Ground">
-              <point x="60.0" y="-59.0" />
-              <point x="1110.75" y="314.0" />
-              <point x="1161.8214285714287" y="314.0" />
-              <point x="-19.42857142857133" y="23.0" />
-            </edge>
-            <edge source="fr.isen.map.element.ForestWall" target="fr.isen.map.element.Wall">
-              <point x="0.0" y="-77.5" />
-              <point x="0.0" y="23.0" />
-            </edge>
-            <edge source="fr.isen.map.element.ForestFactory" target="fr.isen.map.element.ForestWall">
-              <point x="-64.19999999999993" y="-114.5" />
-              <point x="957.1477443609025" y="529.0" />
-              <point x="790.25" y="529.0" />
-              <point x="0.0" y="77.5" />
-            </edge>
-            <edge source="fr.isen.map.element.TownGround" target="fr.isen.map.element.Ground">
-              <point x="0.0" y="-59.0" />
-              <point x="1887.65" y="234.0" />
-              <point x="1239.5357142857142" y="234.0" />
-              <point x="58.28571428571422" y="23.0" />
-            </edge>
-            <edge source="fr.isen.map.element.ForestGround" target="fr.isen.map.element.Ground">
-              <point x="0.0" y="-77.5" />
-              <point x="1586.0195488721804" y="254.0" />
-              <point x="1200.6785714285713" y="254.0" />
-              <point x="19.42857142857133" y="23.0" />
-            </edge>
-            <edge source="fr.isen.map.element.Wall" target="fr.isen.map.element.MapElement">
-              <point x="0.0" y="-23.0" />
-              <point x="790.25" y="143.0" />
-              <point x="929.5" y="143.0" />
-              <point x="-56.25" y="59.0" />
-            </edge>
-            <edge source="fr.isen.map.element.ForestFactory" target="fr.isen.map.element.Wall">
-              <point x="-128.39999999999998" y="-114.5" />
-              <point x="892.9477443609024" y="539.0" />
-              <point x="370.25" y="539.0" />
-              <point x="370.25" y="284.0" />
-              <point x="774.3928571428571" y="284.0" />
-              <point x="-15.85714285714289" y="23.0" />
-            </edge>
-            <edge source="fr.isen.map.element.ForestFactory" target="fr.isen.map.element.Ground">
-              <point x="64.20000000000005" y="-114.5" />
-              <point x="1085.5477443609025" y="539.0" />
-              <point x="1182.0195488721804" y="539.0" />
-              <point x="0.0" y="23.0" />
-            </edge>
-            <edge source="fr.isen.map.element.MazeFactory" target="fr.isen.map.element.Wall">
-              <point x="-62.19999999999993" y="-114.5" />
-              <point x="254.84586466165433" y="569.0" />
-              <point x="268.5" y="569.0" />
-              <point x="268.5" y="274.0" />
-              <point x="758.5357142857143" y="274.0" />
-              <point x="-31.714285714285666" y="23.0" />
-            </edge>
-            <edge source="fr.isen.map.element.TownFactory" target="fr.isen.map.element.TownWall">
-              <point x="0.0" y="-114.5" />
-              <point x="1394.751879699248" y="509.0" />
-              <point x="1316.0195488721804" y="509.0" />
-              <point x="0.0" y="59.0" />
-            </edge>
-            <edge source="fr.isen.map.element.TownFactory" target="fr.isen.map.element.MapElementFactory">
-              <point x="-125.20000000000005" y="-114.5" />
-              <point x="1269.551879699248" y="529.0" />
-              <point x="1130.75" y="529.0" />
-              <point x="80.0" y="59.0" />
-            </edge>
-            <edge source="fr.isen.map.element.TownFactory" target="fr.isen.map.element.Ground">
-              <point x="62.59999999999991" y="-114.5" />
-              <point x="1457.351879699248" y="559.0" />
-              <point x="1764.65" y="559.0" />
-              <point x="1764.65" y="244.0" />
-              <point x="1220.107142857143" y="244.0" />
-              <point x="38.85714285714289" y="23.0" />
-            </edge>
-            <edge source="fr.isen.map.element.TownFactory" target="fr.isen.map.element.TownGround">
-              <point x="125.20000000000005" y="-114.5" />
-              <point x="1519.951879699248" y="569.0" />
-              <point x="1887.65" y="569.0" />
-              <point x="0.0" y="59.0" />
-            </edge>
-            <edge source="fr.isen.map.element.ForestFactory" target="fr.isen.map.element.MapElementFactory">
-              <point x="0.0" y="-114.5" />
-              <point x="1021.3477443609024" y="569.0" />
-              <point x="1050.75" y="569.0" />
-              <point x="0.0" y="59.0" />
-            </edge>
-            <edge source="fr.isen.map.element.MazeFactory" target="fr.isen.map.element.MazeGround">
-              <point x="62.200000000000045" y="-114.5" />
-              <point x="379.2458646616543" y="559.0" />
-              <point x="520.75" y="559.0" />
-              <point x="0.0" y="77.5" />
-            </edge>
-            <edge source="fr.isen.map.element.MazeFactory" target="fr.isen.map.element.Ground">
-              <point x="0.0" y="-114.5" />
-              <point x="317.04586466165426" y="549.0" />
-              <point x="381.25" y="549.0" />
-              <point x="381.25" y="294.0" />
-              <point x="1122.9642857142858" y="294.0" />
-              <point x="-58.28571428571422" y="23.0" />
-            </edge>
-            <edge source="fr.isen.map.element.ForestFactory" target="fr.isen.map.element.ForestGround">
-              <point x="128.4000000000001" y="-114.5" />
-              <point x="1149.7477443609025" y="549.0" />
-              <point x="1586.0195488721804" y="549.0" />
-              <point x="0.0" y="77.5" />
-            </edge>
-            <edge source="fr.isen.map.element.MapElementFactory" target="fr.isen.map.element.Wall">
-              <point x="-60.0" y="-59.0" />
-              <point x="990.75" y="284.0" />
-              <point x="806.1071428571429" y="284.0" />
-              <point x="15.85714285714289" y="23.0" />
-            </edge>
-            <edge source="fr.isen.map.element.MazeWall" target="fr.isen.map.element.Wall">
-              <point x="0.0" y="-77.5" />
-              <point x="129.0" y="264.0" />
-              <point x="742.6785714285714" y="264.0" />
-              <point x="-47.571428571428555" y="23.0" />
-            </edge>
-            <edge source="fr.isen.map.element.MazeGround" target="fr.isen.map.element.Ground">
-              <point x="0.0" y="-77.5" />
-              <point x="520.75" y="304.0" />
-              <point x="1142.392857142857" y="304.0" />
-              <point x="-38.85714285714289" y="23.0" />
-            </edge>
-            <edge source="fr.isen.map.element.MazeFactory" target="fr.isen.map.element.MapElementFactory">
-              <point x="124.39999999999998" y="-114.5" />
-              <point x="441.44586466165424" y="569.0" />
-              <point x="970.75" y="569.0" />
-              <point x="-80.0" y="59.0" />
-            </edge>
-            <edge source="fr.isen.map.element.Ground" target="fr.isen.map.element.MapElement">
-              <point x="0.0" y="-23.0" />
-              <point x="1181.25" y="143.0" />
-              <point x="1042.0" y="143.0" />
-              <point x="56.25" y="59.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="-37.0" y="362.0" />
-          <SelectedNodes>
-            <node>fr.isen.map.element.MazeWall</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Inner Classes</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/RPGMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/MyRPG_App.java" />
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/element/ForestFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/element/Ground.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/isen/map/Direction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -918,16 +469,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="10" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/isen/map/model/MapImages.java" />
     <entry file="file://$PROJECT_DIR$/ressources/MazeWall.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ressources/MazeGroundGlowing.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -949,35 +496,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ressources/ground.png" />
-    <entry file="file://$PROJECT_DIR$/ressources/MazeGround.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/element/ForestWall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/element/MazeGround.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/element/MazeWall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/isen/map/element/TownGround.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -996,87 +514,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/isen/ImagePanel.java" />
     <entry file="file://$PROJECT_DIR$/src/fr/isen/Application.java" />
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/RPGMapBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/RPGWorlManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="26" column="50" lean-forward="false" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#printRPGMap#0;class#RPGWorlManager#0" expanded="false" />
-            <element signature="method#initialPlayerPosition#0;class#RPGWorlManager#0" expanded="false" />
-            <element signature="n#!!doc;n#move#0;n#RPGWorlManager#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/isen/map/NewGameApp.java" />
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/controller/MapElementController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/isen/map/element/TownFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="13" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/view/GlobalView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
-          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="36" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1352#1414#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="e#110#111#0" expanded="true" />
-            <element signature="e#139#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/controller/MapController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/element/MapElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1105,10 +548,570 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ressources/MazeGround.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ressources/MazeGroundGlowing.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Logger/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/element/ForestWall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/element/MazeWall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="e#1147#1148#0" expanded="false" />
+            <element signature="e#1175#1176#0" expanded="false" />
+            <element signature="e#1226#1227#0" expanded="false" />
+            <element signature="e#1262#1263#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/element/MapElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ressources/PlayerLeft.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/RPGMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/fr.isen">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>fr.isen</OriginalElement>
+          <nodes>
+            <node x="" y="">fr.isen.Main</node>
+            <node x="" y="">fr.isen.map</node>
+            <node x="" y="">fr.isen.Test</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="260.0" y="104.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/fr.isen.map.element">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>fr.isen.map.element</OriginalElement>
+          <nodes>
+            <node x="" y="">fr.isen.map.element.MapElement</node>
+            <node x="" y="">fr.isen.map.element.TownFactory</node>
+            <node x="" y="">fr.isen.map.element.TownWall</node>
+            <node x="" y="">fr.isen.map.element.MapElementFactory</node>
+            <node x="" y="">fr.isen.map.element.Wall</node>
+            <node x="" y="">fr.isen.map.element.MazeGround</node>
+            <node x="" y="">fr.isen.map.element.Ground</node>
+            <node x="" y="">fr.isen.map.element.ForestFactory</node>
+            <node x="" y="">fr.isen.map.element.TownGround</node>
+            <node x="" y="">fr.isen.map.element.MazeFactory</node>
+            <node x="" y="">fr.isen.map.element.ForestGround</node>
+            <node x="" y="">fr.isen.map.element.ForestWall</node>
+            <node x="" y="">fr.isen.map.element.MazeWall</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.56815578465063" x="927.5" y="426.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/view/GlobalView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="36" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/fr.isen.map.model">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>fr.isen.map.model</OriginalElement>
+          <nodes>
+            <node x="" y="">fr.isen.map.model.Player</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="113.5" y="95.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/fr.isen.map.view">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>fr.isen.map.view</OriginalElement>
+          <nodes>
+            <node x="" y="">fr.isen.map.view.MapView</node>
+            <node x="" y="">fr.isen.map.view.PlayerView</node>
+            <node x="" y="">fr.isen.map.view.MapElementView</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9117647058823529" x="185.0" y="262.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drawingImagesExample.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="73" lean-forward="true" selection-start-line="5" selection-start-column="73" selection-end-line="6" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/element/MazeGround.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/isen/map/element/ForestGround.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="76">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="e#584#869#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/fr.isen.map">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>fr.isen.map</OriginalElement>
+          <nodes>
+            <node x="121.72154761904778" y="1141.0">fr.isen.map.controller</node>
+            <node x="917.4355687830689" y="444.0">fr.isen.map.RPGMapBuilder</node>
+            <node x="165.48333333333323" y="1257.0">fr.isen.map.GameApp</node>
+            <node x="421.6032142857144" y="192.5">fr.isen.map.Position</node>
+            <node x="20.0" y="840.0">fr.isen.map.view</node>
+            <node x="661.7768783068786" y="0.0">fr.isen.map.element</node>
+            <node x="746.9833333333332" y="156.0">fr.isen.map.RPGMap</node>
+            <node x="211.0" y="175.0">fr.isen.map.Direction</node>
+            <node x="395.88937830687865" y="695.0">fr.isen.map.RPGWorlManager</node>
+            <node x="287.38937830687865" y="516.5">fr.isen.map.model</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="fr.isen.map.element" target="fr.isen.map.element">
+              <point x="-70.875" y="23.0" />
+              <point x="685.4018783068786" y="76.0" />
+              <point x="631.7768783068786" y="76.0" />
+              <point x="631.7768783068786" y="11.5" />
+              <point x="-94.5" y="-11.5" />
+            </edge>
+            <edge source="fr.isen.map.view" target="fr.isen.map.controller">
+              <point x="68.14285714285711" y="23.0" />
+              <point x="167.6428571428571" y="1071.0" />
+              <point x="192.42154761904783" y="1071.0" />
+              <point x="-30.299999999999955" y="-23.0" />
+            </edge>
+            <edge source="fr.isen.map.RPGWorlManager" target="fr.isen.map.model">
+              <point x="-297.5" y="-168.0" />
+              <point x="438.38937830687865" y="675.0" />
+              <point x="424.1036640211643" y="675.0" />
+              <point x="49.714285714285666" y="23.0" />
+            </edge>
+            <edge source="fr.isen.map.GameApp" target="fr.isen.map.controller">
+              <point x="-62.84999999999991" y="-41.0" />
+              <point x="312.1333333333333" y="1207.0" />
+              <point x="273.2215476190478" y="1207.0" />
+              <point x="50.5" y="23.0" />
+            </edge>
+            <edge source="fr.isen.map.model" target="fr.isen.map.Direction">
+              <point x="-69.60000000000002" y="-23.0" />
+              <point x="304.78937830687863" y="424.0" />
+              <point x="286.5" y="424.0" />
+              <point x="0.0" y="95.0" />
+            </edge>
+            <edge source="fr.isen.map.GameApp" target="fr.isen.map.RPGMapBuilder">
+              <point x="146.64999999999998" y="-41.0" />
+              <point x="521.6333333333332" y="1227.0" />
+              <point x="1182.185568783069" y="1227.0" />
+              <point x="88.25" y="95.5" />
+            </edge>
+            <edge source="fr.isen.map.RPGMapBuilder" target="fr.isen.map.RPGMap">
+              <point x="-44.125" y="-95.5" />
+              <point x="1049.810568783069" y="424.0" />
+              <point x="1083.8583333333331" y="424.0" />
+              <point x="144.375" y="114.0" />
+            </edge>
+            <edge source="fr.isen.map.RPGMap" target="fr.isen.map.element">
+              <point x="-96.25" y="-114.0" />
+              <point x="843.2333333333332" y="136.0" />
+              <point x="779.9018783068786" y="136.0" />
+              <point x="23.625" y="23.0" />
+            </edge>
+            <edge source="fr.isen.map.RPGWorlManager" target="fr.isen.map.Position">
+              <point x="-127.5" y="-168.0" />
+              <point x="608.3893783068786" y="675.0" />
+              <point x="666.0797354497356" y="675.0" />
+              <point x="666.0797354497356" y="424.0" />
+              <point x="584.7032142857144" y="424.0" />
+              <point x="46.599999999999966" y="77.5" />
+            </edge>
+            <edge source="fr.isen.map.view" target="fr.isen.map.view">
+              <point x="-68.14285714285711" y="23.0" />
+              <point x="31.35714285714289" y="906.0" />
+              <point x="0.0" y="906.0" />
+              <point x="0.0" y="863.0" />
+              <point x="-79.5" y="-0.0" />
+            </edge>
+            <edge source="fr.isen.map.RPGWorlManager" target="fr.isen.map.RPGMap">
+              <point x="212.5" y="-168.0" />
+              <point x="948.3893783068786" y="665.0" />
+              <point x="861.0547354497355" y="665.0" />
+              <point x="861.0547354497355" y="424.0" />
+              <point x="891.3583333333332" y="424.0" />
+              <point x="-48.125" y="114.0" />
+            </edge>
+            <edge source="fr.isen.map.GameApp" target="fr.isen.map.view">
+              <point x="-146.64999999999986" y="-41.0" />
+              <point x="228.33333333333337" y="1227.0" />
+              <point x="99.70726190476205" y="1227.0" />
+              <point x="99.70726190476205" y="1111.0" />
+              <point x="76.78571428571433" y="1111.0" />
+              <point x="-22.714285714285666" y="23.0" />
+            </edge>
+            <edge source="fr.isen.map.RPGWorlManager" target="fr.isen.map.RPGMapBuilder">
+              <point x="297.5" y="-168.0" />
+              <point x="1033.3893783068786" y="675.0" />
+              <point x="1005.6855687830689" y="675.0" />
+              <point x="-88.25" y="95.5" />
+            </edge>
+            <edge source="fr.isen.map.controller" target="fr.isen.map.view">
+              <point x="-90.89999999999992" y="-23.0" />
+              <point x="131.82154761904786" y="1101.0" />
+              <point x="99.5" y="1101.0" />
+              <point x="0.0" y="23.0" />
+            </edge>
+            <edge source="fr.isen.map.view" target="fr.isen.map.element">
+              <point x="-19.875" y="-23.0" />
+              <point x="79.625" y="106.0" />
+              <point x="716.9018783068786" y="106.0" />
+              <point x="-39.375" y="23.0" />
+            </edge>
+            <edge source="fr.isen.map.GameApp" target="fr.isen.map.RPGWorlManager">
+              <point x="104.75" y="-41.0" />
+              <point x="479.73333333333323" y="1217.0" />
+              <point x="906.4833333333332" y="1217.0" />
+              <point x="906.4833333333332" y="1121.0" />
+              <point x="990.8893783068786" y="1121.0" />
+              <point x="255.0" y="168.0" />
+            </edge>
+            <edge source="fr.isen.map.view" target="fr.isen.map.model">
+              <point x="59.625" y="-23.0" />
+              <point x="159.125" y="665.0" />
+              <point x="324.6750925925929" y="665.0" />
+              <point x="-49.71428571428578" y="23.0" />
+            </edge>
+            <edge source="fr.isen.map.GameApp" target="fr.isen.map.model">
+              <point x="20.950000000000045" y="-41.0" />
+              <point x="395.9333333333333" y="1237.0" />
+              <point x="385.38937830687865" y="1237.0" />
+              <point x="385.38937830687865" y="675.0" />
+              <point x="399.24652116402143" y="675.0" />
+              <point x="24.857142857142776" y="23.0" />
+            </edge>
+            <edge source="fr.isen.map.GameApp" target="fr.isen.map.element">
+              <point x="188.54999999999995" y="-41.0" />
+              <point x="563.5333333333332" y="1237.0" />
+              <point x="1280.935568783069" y="1237.0" />
+              <point x="1280.935568783069" y="96.0" />
+              <point x="842.9018783068786" y="96.0" />
+              <point x="86.625" y="23.0" />
+            </edge>
+            <edge source="fr.isen.map.RPGMapBuilder" target="fr.isen.map.element">
+              <point x="132.375" y="-95.5" />
+              <point x="1226.310568783069" y="424.0" />
+              <point x="1194.5804761904765" y="424.0" />
+              <point x="1194.5804761904765" y="106.0" />
+              <point x="827.1518783068786" y="106.0" />
+              <point x="70.875" y="23.0" />
+            </edge>
+            <edge source="fr.isen.map.controller" target="fr.isen.map.Direction">
+              <point x="30.30000000000001" y="-23.0" />
+              <point x="253.0215476190478" y="1121.0" />
+              <point x="248.00488095238114" y="1121.0" />
+              <point x="248.00488095238114" y="424.0" />
+              <point x="236.16666666666669" y="424.0" />
+              <point x="-50.333333333333314" y="95.0" />
+            </edge>
+            <edge source="fr.isen.map.controller" target="fr.isen.map.model">
+              <point x="50.5" y="-23.0" />
+              <point x="273.2215476190478" y="1101.0" />
+              <point x="297.1797354497356" y="1101.0" />
+              <point x="297.1797354497356" y="675.0" />
+              <point x="349.53223544973577" y="675.0" />
+              <point x="-24.85714285714289" y="23.0" />
+            </edge>
+            <edge source="fr.isen.map.RPGWorlManager" target="fr.isen.map.element">
+              <point x="42.5" y="-168.0" />
+              <point x="778.3893783068786" y="675.0" />
+              <point x="736.4833333333332" y="675.0" />
+              <point x="736.4833333333332" y="136.0" />
+              <point x="764.1518783068786" y="136.0" />
+              <point x="7.875" y="23.0" />
+            </edge>
+            <edge source="fr.isen.map.controller" target="fr.isen.map.RPGWorlManager">
+              <point x="70.69999999999999" y="-23.0" />
+              <point x="293.4215476190478" y="1111.0" />
+              <point x="480.88937830687865" y="1111.0" />
+              <point x="-255.0" y="168.0" />
+            </edge>
+            <edge source="fr.isen.map.model" target="fr.isen.map.Position">
+              <point x="34.799999999999955" y="-23.0" />
+              <point x="409.1893783068786" y="414.0" />
+              <point x="491.50321428571436" y="414.0" />
+              <point x="-46.60000000000002" y="77.5" />
+            </edge>
+            <edge source="fr.isen.map.controller" target="fr.isen.map.element">
+              <point x="10.100000000000023" y="-23.0" />
+              <point x="232.8215476190478" y="1051.0" />
+              <point x="200.5" y="1051.0" />
+              <point x="200.5" y="126.0" />
+              <point x="748.4018783068786" y="126.0" />
+              <point x="-7.875" y="23.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.36497424576894777" x="-647.2620967741937" y="647.5806451612902" />
+          <SelectedNodes>
+            <node>fr.isen.map.controller</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/RPGMapBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc;n#position#0;n#Player#0" expanded="false" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="n#!!doc;n#direction#0;n#Player#0" expanded="false" />
+            <element signature="n#!!doc;n#name#0;n#Player#0" expanded="false" />
+            <element signature="method#Player#0;class#Player#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/controller/MapElementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/controller/PlayerMovement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="method#keyTyped#0;class#PlayerMovement#0" expanded="false" />
+            <element signature="method#keyReleased#0;class#PlayerMovement#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/controller/MapController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/fr.isen.map.controller">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>fr.isen.map.controller</OriginalElement>
+          <nodes>
+            <node x="" y="">fr.isen.map.controller.MapController</node>
+            <node x="" y="">fr.isen.map.controller.PlayerMovement</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="249.0" y="177.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/RPGWorlManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-704">
+          <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+          <folding>
+            <element signature="method#printRPGMap#0;class#RPGWorlManager#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/view/PlayerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="method#PlayerView#0;class#PlayerView#0" expanded="false" />
+            <element signature="method#FindUrl#0;class#PlayerView#0" expanded="false" />
+            <element signature="method#setState#0;class#PlayerView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/view/MapElementView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="26" column="84" lean-forward="false" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/GameApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1117,66 +1120,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/isen/map/view/MapView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/view/MapElementView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/model/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="method#Player#0;class#Player#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="method#setPosition#0;class#Player#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/controller/PlayerMovement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-          <folding>
-            <element signature="method#keyTyped#0;class#PlayerMovement#0" expanded="false" />
-            <element signature="method#keyReleased#0;class#PlayerMovement#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/GameApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="220">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/isen/map/view/PlayerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="method#FindUrl#0;class#PlayerView#0" expanded="false" />
-            <element signature="method#setState#0;class#PlayerView#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -9,16 +9,13 @@ import java.util.List;
 import java.util.Map;
 
 public class MapController {
-    private RPGWorlManager rpgWorlManager;
 
     private Map<Integer, MapElementView> mapElementViews;
-
     public Map<Integer, MapElementView> getMapElementViews() {
         return mapElementViews;
     }
 
     public MapController(RPGWorlManager rpgWorlManager) {
-        this.rpgWorlManager = rpgWorlManager;
         this.mapElementViews = new HashMap<>();
         int i = 0;
         for (List<MapElement> elements : rpgWorlManager.getRpg_map().getElements()) {

@@ -6,25 +6,13 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class MazeWall extends Wall {
-//    private Boolean isLightning = false;
-//
-//    public Boolean getLightning() {
-//        return isLightning;
-//    }
-
+    //region Parameters
     private int state = 0;
     private String[] images = {"./MazeWall.png", "./MazeWallGlowing.png"};
+    //endregion
 
-
-    @Override
-    public int getState() {
-        return state;
-    }
-
-    @Override
-    public String getCurrentUrl() {
-        return images[state];
-    }
+    //region MapElement Override
+    //region EnterLeave
     @Override
     public Boolean enter() {
 
@@ -43,7 +31,7 @@ public class MazeWall extends Wall {
         }, 3 * 1000);
 
 //        isLightning = true;
-        state = 0;
+        state = 1;
         setChanged();
         notifyObservers();
         loLogger.info("state isLightning = " + state);
@@ -52,4 +40,18 @@ public class MazeWall extends Wall {
 
     @Override
     public void leave() {}
+    //endregion
+
+    //region Getters
+    @Override
+    public int getState() {
+        return state;
+    }
+
+    @Override
+    public String getCurrentUrl() {
+        return images[state];
+    }
+    //endregion
+    //endregion
 }

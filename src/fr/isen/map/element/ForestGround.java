@@ -13,6 +13,10 @@ public class ForestGround extends Ground {
     @Override
     public void leave() {
         Logger fgLogger = Logger.getLogger("forest_ground", null);
+        state = 1;
+        setChanged();
+        notifyObservers();
+        fgLogger.info("state has foot print = " + state);
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override
@@ -28,11 +32,6 @@ public class ForestGround extends Ground {
     }
     @Override
     public Boolean enter() {
-        Logger fgLogger = Logger.getLogger("forest_ground", null);
-        state = 1;
-        setChanged();
-        notifyObservers();
-        fgLogger.info("state has foot print = " + state);
         return true;
     }
 

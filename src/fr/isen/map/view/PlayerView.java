@@ -16,6 +16,8 @@ public class PlayerView extends JPanel implements Observer {
 
     public PlayerView(Player player) {
         this.player = player;
+        this.setBackground(new Color(0,0,0,0));
+        this.setBounds(player.getPosition().y * 32, player.getPosition().x * 32, 32, 32);
         images = new Image[4];
         state = 1;
         FindUrl();
@@ -36,43 +38,37 @@ public class PlayerView extends JPanel implements Observer {
         return player;
     }
 
-    public Image getImage() {
+    private Image getImage() {
         return images[state];
     }
 
-    public void setState(Player player) {
+    private void setState(Player player) {
         switch (player.getDirection()) {
             case UP:
                 state = 0;
-
                 break;
             case LEFT:
                 state = 2;
-
                 break;
             case RIGHT:
                 state = 3;
-
                 break;
             default:
                 state = 1;
-
         }
-
     }
 
     @Override
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
-        System.out.println("PaintPlayer");
-        g.drawImage(images[state], 0,0, null);
+        g.drawImage(this.getImage(), 0, 0, null);
     }
 
     @Override
     public void update(Observable observable, Object object) {
         if (observable == player) {
             setState(player);
-//            revalidate();
+            this.setLocation(player.getPosition().y * 32, player.getPosition().x * 32);
             repaint();
         }
     }

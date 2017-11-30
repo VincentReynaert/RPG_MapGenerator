@@ -30,22 +30,18 @@ public class PlayerMovement implements KeyListener {
         int keyCode = e.getKeyCode();
         switch (keyCode) {
             case KeyEvent.VK_UP:
-//                System.out.println("press up");
                 player.setDirection(Direction.UP);
                 rpgWorlManager.moveNorth();
                 break;
             case KeyEvent.VK_DOWN:
-//                System.out.println("press do");
                 player.setDirection(Direction.DOWN);
                 rpgWorlManager.moveSouth();
                 break;
             case KeyEvent.VK_LEFT:
-//                System.out.println("press le");
                 player.setDirection(Direction.LEFT);
                 rpgWorlManager.moveWest();
                 break;
             case KeyEvent.VK_RIGHT:
-//                System.out.println("press ri");
                 player.setDirection(Direction.RIGHT);
                 rpgWorlManager.moveEast();
                 break;
@@ -55,6 +51,4 @@ public class PlayerMovement implements KeyListener {
     @Override
     public void keyReleased(KeyEvent e) {
     }
-
-
 }

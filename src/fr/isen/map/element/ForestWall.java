@@ -3,20 +3,16 @@ package fr.isen.map.element;
 import com.Logger.Logger;
 
 public class ForestWall extends Wall {
-
+    //region Parameters
     private int state = 1;
-    private String[] images = {"./ForestWood.png","./ForestWoodSnow.png"};
+    private String[] urls = {"./ForestWood.png", "./ForestWoodSnow.png"};
+    //endregion
 
-//    public Boolean getHasSnow() {
-//        return hasSnow;
-//    }
-//
-//    private Boolean hasSnow = true;
-
+    //region MapElement Override
+    //region EnterLeave
     @Override
     public Boolean enter() {
         Logger foLogger = Logger.getLogger("forest_obstable", null);
-//        hasSnow = false;
         state = 0;
         setChanged();
         notifyObservers();
@@ -27,7 +23,9 @@ public class ForestWall extends Wall {
     @Override
     public void leave() {
     }
+    //endregion
 
+    //region Getters
     @Override
     public int getState() {
         return state;
@@ -35,6 +33,8 @@ public class ForestWall extends Wall {
 
     @Override
     public String getCurrentUrl() {
-        return images[state];
+        return urls[state];
     }
+    //endregion
+    //endregion
 }

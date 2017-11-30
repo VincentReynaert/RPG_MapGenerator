@@ -1,9 +1,6 @@
 package fr.isen.map;
 
 import com.Logger.Logger;
-import fr.isen.map.Position;
-import fr.isen.map.RPGMap;
-import fr.isen.map.RPGMapBuilder;
 import fr.isen.map.element.MapElement;
 import fr.isen.map.element.MapElementFactory;
 import fr.isen.map.model.Player;
@@ -64,11 +61,11 @@ public class RPGWorlManager {
     }
 
     //region Move
-    private void move(int x, int y, String direction) {
+    private void move(int x, int y, String direction, MapElement oldElement) {
         MapElement element = rpg_map.getElement(x, y);
         if (element.enter()) {
             Position newPosition = new Position(x, y);
-            element.leave();
+            oldElement.leave();
             player.setPosition(newPosition);
             moveLogger.info(direction + " : player position = x " + newPosition.x + ", y " + newPosition.y);
         } else moveLogger.error(" there is an obstacle " + direction + "!");
@@ -77,32 +74,32 @@ public class RPGWorlManager {
     public void moveNorth() {
         Position position = player.getPosition();
         if (position.x > 0) {
-            move(position.x - 1, position.y, " Up");
-//            player.setDirection(Direction.UP);
+            MapElement element = rpg_map.getElement(position.x, position.y);
+            move(position.x - 1, position.y, " Up", element);
         } else moveLogger.error(" cannot move Up");
     }
 
     public void moveSouth() {
         Position position = player.getPosition();
         if (position.x < rpg_map.getHeight()) {
-            move(position.x + 1, position.y, " Down");
-//            player.setDirection(Direction.DOWN);
+            MapElement element = rpg_map.getElement(position.x, position.y);
+            move(position.x + 1, position.y, " Down", element);
         } else moveLogger.error(" cannot move Down");
     }
 
     public void moveWest() {
         Position position = player.getPosition();
         if (position.y > 0) {
-            move(position.x, position.y - 1, " Left");
-//            player.setDirection(Direction.LEFT);
+            MapElement element = rpg_map.getElement(position.x, position.y);
+            move(position.x, position.y - 1, " Left", element);
         } else moveLogger.error(" cannot move Left");
     }
 
     public void moveEast() {
         Position position = player.getPosition();
         if (position.y < rpg_map.getWidth()) {
-            move(position.x, position.y + 1, " Right");
-//            player.setDirection(Direction.RIGHT);
+            MapElement element = rpg_map.getElement(position.x, position.y);
+            move(position.x, position.y + 1, " Right", element);
         } else moveLogger.error(" cannot move Right");
     }
     //endregion
